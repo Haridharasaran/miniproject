@@ -1,0 +1,65 @@
+
+
+.bg-dark{
+    opacity: 0.6;
+}
+.bg-dark:hover{
+    opacity: 1;
+}
+.hai{
+    background-image: url(./img/mixed-pizza-with-various-ingridients.jpg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.main{
+background-color: black;
+min-height: 100vh;
+
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border: 2px dashed skyblue ;
+    padding: 125px 0px 0 48px;
+
+}
+.box:focus{
+    outline: none;
+    box-shadow: none;
+
+}
+.image{
+    width: 300px;
+}
+.err{
+    font-size: 14px;
+    color: red;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    appearance: none;
+}
+
+
+.dropstart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.confirm{
+    background: linear-gradient(to left, #434343 0%, black 100%);
+    color: white;
+}
+.hed{
+  color: #434343;
+    font-size: x-large;
+}
+.hedcon{
+    color:  #434343 ;
+    
+}
